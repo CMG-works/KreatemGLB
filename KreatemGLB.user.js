@@ -520,7 +520,7 @@
 
     const systems = getAllSystems(gw);
 
-¿    const armSystem = systems.find(s => s && 'currentBlockId' in s) ||
+    const armSystem = systems.find(s => s && 'currentBlockId' in s) ||
                       systems.find(s => s && ('itemMesh' in s || 'arms' in s));
     if (armSystem) {
 
